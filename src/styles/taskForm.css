@@ -1,0 +1,35 @@
+/* Main structure */
+
+.form-task {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text field */
+
+.input-task-field{
+  background-color: white;
+  width: 350px;
+  font-size: 18px;
+  border: 2px solid #00471B;
+  border-radius: 4px 0 0 4px;
+  padding: 14px 32px 14px 16px;
+  outline: none;
+}
+
+/* Add task button */
+
+.add-task-button {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  color: #FFF;
+  background-color: #00471B;
+  text-transform: capitalize;
+  outline: none;
+  cursor: pointer;
+}

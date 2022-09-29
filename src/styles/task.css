@@ -1,0 +1,49 @@
+.task-container {
+  width: 500px;
+  min-height: 65px;
+  background-color: #1B1B32;
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  border: 1px solid white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Gradient of each task */
+
+.task-container:nth-child(3n + 1) {
+  background-color: #1B1B32;
+}
+
+.task-container:nth-child(3n + 2) {
+  background-color: #2A2A40;
+}
+
+.task-container:nth-child(3n + 3) {
+  background-color: #3B3B4F;
+}
+
+.task-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  overflow-wrap: anywhere;
+}
+
+.equis-delete-task-icon {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+/* Task completed */
+
+.task-container.task-completed {
+  background-color: red;
+  text-decoration: line-through;
+}
